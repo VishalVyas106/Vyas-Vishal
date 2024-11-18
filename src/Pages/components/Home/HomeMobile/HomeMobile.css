@@ -1,0 +1,61 @@
+.MNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent; /* Navbar background color */
+    color: white; /* Text color */
+    position: relative; /* Needed for absolute positioning of the menu */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.477); 
+    font-size: 20px; /* Size of the logo */
+  }
+  
+  .Mlogo {
+  }
+  
+  .MMenuIcon {
+    cursor: pointer;
+    font-size: 24px; /* Size of the menu icon */
+  }
+  
+  .MMenu {
+    position: absolute;
+    top: 100%; /* Adjust based on the height of your navbar */
+    right: 0; /* Align to the right */
+    background-color: rgb(0, 0, 0); /* Dropdown background color */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    z-index: 1000; /* Ensure the menu is above other content */
+    width: 100%;
+    text-align: center;
+    transform: translateY(-10px); /* Initial position for animation */
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Animation effects */
+    pointer-events: none; /* Prevent interaction when not visible */
+  }
+  
+  .MMenu.open {
+    transform: translateY(0); /* Move to normal position */
+    opacity: 1; /* Make visible */
+    pointer-events: auto; /* Allow interaction */
+  }
+  
+  .MMenuItem {
+    font-size: 20px;
+    display: block; /* Make menu items block elements */
+    padding: 15px 20px; /* Padding for menu items */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.477); 
+  }
+  
+  .MMenuItem:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+  }
+  
+  .MMenuItem.active {
+    /* background-color: rgb(255, 37, 37);  */
+    color: #ff2b2b;
+  }
+  

@@ -1,0 +1,151 @@
+.know-container {
+    min-height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.know-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 8vh;
+}
+
+.know-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.know-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.know-description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.know-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.know-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.know-btn.primary {
+    background-color: #1976d2;
+    color: white;
+}
+
+.know-section-title {
+    margin-bottom: 20px;
+}
+
+.know-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+.CerImgDiv{
+    width: 30vw;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    
+}
+
+.know-section-card:hover {
+    transform: scale(1.01);
+}
+
+.know-section-card:hover > .CerImgDiv {
+    background-color: red;
+    left: 20%;
+}
+
+.know-section-card:hover > .know-arrow-btn {
+        
+}
+
+.know-section-card {
+    height: 50vh;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    position: relative;
+    transition: all 0.3s ease;
+
+    overflow: hidden;
+}
+
+.know-section-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.know-arrow-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.know-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    border: 1px solid rgba(191, 191, 191, 0.582);
+}
+
+@media (max-width: 768px) {
+    .know-title {
+        font-size: 24px;
+    }
+
+    .know-buttons {
+        flex-direction: column;
+    }
+
+    .know-sections {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

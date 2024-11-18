@@ -1,0 +1,168 @@
+.MHeroTextOne{
+    /* width: ; */
+    /* height: 20vh; */
+
+    font-size: 35px;
+    
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 50px 10px 0px 20px;
+
+    display: block;
+}
+
+.SubTextHero{
+    font-size: 13px;
+    padding: 10px 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0.5;
+}
+
+
+.MERNText{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.MHeroTextTwo{
+    font-size: 36px;
+    padding: 20px;
+    
+}
+
+.MHeroTextTwo span{
+    opacity: 0.5;
+}
+
+.MABoutButton{
+    
+    
+    
+    
+    
+    
+    
+    
+    padding: 0px 20px;
+    /* From Uiverse.io by levxyca */ 
+    button {
+
+    font-size: 1.5rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #fafafa;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 35px 0;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+
+
+
+}
+
+
+.GamilButton{
+    
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+.GamilButton span{
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+
+.MainHero{
+    /* width: 100%; */
+    height: 50vh;
+    color: white;
+
+    /* border: 1px solid white; */
+    padding: 0px 20px;
+}
+
+.MainHeroButton{
+    width: 100%;
+
+    /* height: 10vh; */
+    /* border: 1px solid white; */
+
+    display: flex;
+    /* justify-content: space-between; */
+
+    gap: 20px;
+
+    color: white;
+
+}
+
+
+.MainHeroButton div{
+    /* border: 1px solid rgb(255, 255, 255); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+    /* padding: 5px 10px; */
+    font-size: 30px;
+    /* border: 1px solid rgba(255, 255, 255, 0.377); */
+}
+
+.MobileButOne{
+    /* width: 20vw; */
+    /* border: 1px solid rgb(150, 255, 3); */
+
+}
+
+.MobileButTwo{
+    /* width: 20vw; */
+    /* border: 1px solid rgb(255, 0, 0); */
+    color: blue;
+
+}
+
+.MobileButTwo svg{
+    font-size: 30px;
+    width: 100%;
+}
+
+.MobileButThree{
+    /* width: 30vw; */
+    /* border: 1px solid rgb(0, 179, 255); */
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}

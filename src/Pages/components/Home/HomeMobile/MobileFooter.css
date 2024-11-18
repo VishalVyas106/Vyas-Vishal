@@ -1,0 +1,123 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    padding: 1.5rem;
+    background-color: white;
+    color: black; /* Ensures all text is black */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 2rem;
+    color: black; /* Text color remains black */
+}
+
+header h1 {
+    opacity: 0.8;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black; /* Ensures the header is black */
+}
+
+main {
+    flex-grow: 1;
+    color: black; /* Main content text remains black */
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: black; /* Ensures the heading is black */
+}
+
+.talk-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: black; /* Button background remains black */
+    color: white; /* Text on button is white for contrast */
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.talk-button:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}
+
+.arrow {
+    margin-left: 0.5rem;
+    color: white; /* Arrow color remains white to match the button text */
+}
+
+.arrowTwo{
+    color: #000;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* align-items: center; */
+    color: black; /* Ensures all footer link text is black */
+    /* background-color: red; */
+}
+
+.footer-links_Two {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.footer-link-Three {
+    color: black; /* Footer link text remains black */
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-align: left;
+
+}
+
+.NextLinkFooter{
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-link-Three:hover {
+    color: black; /* Footer link stays black on hover */
+    
+}
+
+.external-link {
+    color: black; /* External link text remains black */
+    font-size: 1.25rem;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.external-link:hover {
+    color: black; /* External link stays black on hover */
+}
+
+.footer-Mobile-text {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: black; /* Footer text remains black */
+    text-align: center;
+}
+
+

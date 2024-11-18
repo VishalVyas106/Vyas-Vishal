@@ -1,0 +1,132 @@
+
+/* Page Three Specific Background Color */
+
+.PageThree {
+    /* background-color: #1a1a1a; */
+    background-color: #000000;
+    /* height: ; */
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    z-index: 3;
+    position: relative;
+    
+
+}
+
+.HeadThree {
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid #444; /* Dark border color */
+    background-color: #000000;
+    /* Darker header background */
+    color: #ffffff; /* White text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+/* .AllpageInOne{
+    position: fixed;
+    overflow: auto;
+} */
+
+/* Card Style */
+
+.boxCard {
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid #ff0000; Dark border color */
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+    background-color: #000000; /* Dark card background */
+    color: #ffffff; /* White text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    transition: all 0.5s;
+    overflow: hidden;
+    position: relative;
+
+    opacity: 0;
+}
+
+
+.boxCard:hover::before{
+    top: 0;
+}
+
+.ShowMyProjectBox + .boxCard{
+    overflow: visible;
+}
+
+
+
+
+.boxCard::before{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: red;
+    transition: all 0.3s;
+
+    content: '';
+    top: 100%;
+}
+
+/* .OneLineBox{
+    background-color: blue ;
+    color: red;
+} */
+
+
+.ProjectName{
+    padding-left: 3vw;
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+}
+
+
+
+
+.ProjLink{
+    padding: 5px 20px;
+    margin-right: 5vw;
+    position: relative;
+    z-index: 200;
+    border: 1px solid white;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.PojLink:active{
+    background-color: aqua;
+}
+
+
+
+
+
+/* Main Part Alignment */
+
+.MainPart {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

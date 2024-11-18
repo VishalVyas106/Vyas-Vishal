@@ -1,0 +1,37 @@
+.leetcode-container {
+    width: 100%;
+  }
+  
+  .leetcode-hero {
+    background-color: #00000000;
+    border: 1px solid rgba(255, 255, 255, 0.421);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .leetcode-header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .leetcode-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .leetcode-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffb700;
+    margin-bottom: 16px;
+  }
+  
+  .leetcode-text {
+    font-size: 18px;
+    color: #d1d5db;
+  }

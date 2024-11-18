@@ -1,0 +1,22 @@
+.home-container {
+    display: block;
+}
+
+.home-pc {
+    display: block;
+    /* border: 1px solid wheat; */
+}
+
+.home-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-pc {
+        display: none;
+    }
+
+    .home-mobile {
+        display: block;
+    }
+}

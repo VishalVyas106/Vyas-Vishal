@@ -1,0 +1,676 @@
+*::selection{
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 119, 255);
+  /* border: 1px solid rgb(252, 248, 248); */
+  width: 100vw;
+}
+
+
+
+/* @media screen and (min-width: 600px) {
+  .One{
+      display: none;
+  }
+}
+ */
+
+
+.One{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+
+    display: block;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    /* top: 2vh; */
+    /* border-bottom: 1px solid white; */
+    /* background: rgb(255,255,255); ??? */
+    background: linear-gradient(180deg, rgb(0, 0, 0) 50%, #00daff 20%); 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+
+.NavOne{
+    width: 85%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+
+    border-bottom-right-radius: 20px;
+}
+
+.NavTwo{
+    width: 15%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* background-color: rgb(71, 205, 250); */
+    background-color: #00daff;
+    border-top-left-radius: 10px;
+
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*  */
+/* From Uiverse.io by satyamchaudharydev */ 
+.button {
+    --width: 92%;
+    --height: 80%;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    /* --button-color: #ffffff; */  
+    /* --tooltip-color: #fff; */
+    width: var(--width);
+    height: var(--height);
+    /* background: var(--button-color); */
+    color: #000;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: all 0.3s;
+    color: black;
+
+    border: 1px solid black;;
+  }
+  
+
+  /* stroke-width */
+
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper,.text,.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #000000;
+  }
+  
+  .text {
+    top: 0
+  }
+  
+  .text,.icon {
+    transition: top 0.5s;
+  }
+  
+  .icon {
+    color: #000000;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .button:hover {
+    background: #000000;
+  }
+  
+  .button:hover .text {
+    top: -100%;
+  }
+  
+  .button:hover .icon {
+    top: 0;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NavButton{
+    width: 93%;
+    height: 85%;
+    background-color: black;
+    border-radius: 10px;
+     
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+
+.OneMain{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    background: linear-gradient(350deg, rgb(183, 111, 250) 0%, rgb(0, 255, 255) 80%);
+
+
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    position: relative;
+    display: flex;
+}
+
+.OneButtom{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+
+}
+
+.OneOne{
+    width: 48%;
+    height: 36vh;
+    border-radius: 10px;
+    position: relative;
+    /* border: 1px solid rgba(255, 255, 255, 0.348); */
+}
+
+.OneOne .OneOneSpan{
+  width: 100%;
+  height: 30%;
+  /* border-bottom: 1px solid white; */
+  font-size: 3vw;
+  padding: 1vw 2vw 1vw 2vw;
+  /* position: relative;
+  top: 1vw; */
+}
+
+.OneTwoSpan{
+  font-size: 4.5vw;
+  padding: 0vw 1vw 0vw 2vw;
+
+  width: 26%;
+  display: flex;
+  align-items: center;
+  height: 35%;
+  /* border: 1px solid white; */
+  /* display: inline-block; */
+}
+
+.OneOne span{
+  font-size: 1.2vw;
+  /* border: 1px solid white; */
+  padding: 0vw 1vw 1vw 2vw;
+
+
+
+}
+
+.DsaTopic{
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.DsaTopic div{
+  width: 20%;
+  height: 60%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.279);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.7vw;
+
+
+  transition:all 0.3s;
+
+}
+
+.DsaTopic div:hover{
+  transform: scale(1.05);
+  background-color: white;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  font-weight: 900;
+  font-size: 0.9vw;
+
+}
+
+
+
+
+
+.Name{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.Links{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    /* font-weight: ; */
+}
+
+
+
+
+
+
+.TEXTForOneTwo{
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid rgb(255, 0, 0); */
+
+  font-size: 2.1vw;
+  padding: 1.5vw;
+  font-weight: 600;
+  color: black;
+
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: italic;
+  /* font-style: normal; */
+
+  
+}
+
+.OneTwo{
+    width: 25%;
+    height: 36vh;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    background-color: antiquewhite;
+}
+
+.OneTwoHead{
+    width: 100%;
+    height: 30%;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.164); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.OneTwoHead div{
+   
+}
+
+.VIcon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 1px solid black; */
+
+}
+
+.VIcon::after{
+    /* width: auto; */
+    height: auto;
+    content: 'Vyas Vishal';
+    position: absolute;
+    top: 130%;
+    width: 120px;
+    left: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.VIcon:hover::after{
+    opacity: 0.8;
+}
+
+.SIcon{
+    width: 40%;
+}
+
+.OneThree{
+    width: 25%;
+    height: 36vh;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+    background-color: rgb(183, 111, 250);
+}
+
+.OneThreeHead{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gmail-icon {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .g-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .g-icon svg {
+    width: 70%;
+    height: 70%;
+  }
+  
+  .gmail-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+
+.GmailCopyBut{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.GmailCopyBut:active{
+    background-color: rgb(255, 0, 0);
+    color: black;   
+    transform: scale(0.8);
+}
+
+.ThreeAreaText{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid white; */
+    /* padding-top: 20%; */
+    font-size: 20px;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+.ThreeAreaText span{
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 3vw;
+
+    text-transform: capitalize;
+
+}
+
+
+
+
+
+
+
+
+
+
+.OneRight{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background: linear-gradient(350deg, rgba(255, 36, 240, 0.323) 0%, rgba(0, 255, 255, 0.329) 70%); */
+}
+
+.PartOneAnimetion{
+  width: 60%;
+  height: 80%;
+  /* border: 1px solid black; */
+  /* background: linear-gradient(to 45%, #00ffff, rgb(0, 240, 255), #c471ed); */
+  /* background: rgb(255,36,240); */
+  /* border-top-right-radius: 50%; */
+  border-bottom-right-radius: 50%;
+  /* filter: blur(60px); */
+
+}
+
+.OneLeft{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.LeftIMD{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 4vw;
+    font-weight: bold;
+
+    
+      
+    
+}
+
+.LeftIMD span{
+    color: #000;
+    padding-left: 30px;
+    font-family: "Noto Sans Thai", sans-serif;
+      font-optical-sizing: auto;
+      
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+}
+
+.OneMySkils{
+    margin: auto;
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: center;
+    padding: 5%;
+}
+
+.OneMySkils span{
+    background-color: #000;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.318);
+}
+
+.OneMySkils span:hover{
+    background-color: white;
+    color: #000;
+    font-weight: bolder;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navlink */
+
+/* From Uiverse.io by TISEPSE */ 
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #ffffff00;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 10px;
+    
+    transition: 0.3s;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  .btn2::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - -2px);
+    background-color: #000000;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+  }
+  
+  .btn2::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 50px);
+    background-color: #000000;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+  }
+  
+  .btn2:hover::before {
+    transform: translateY(-25px);
+    height: 0;
+  }
+  
+  .btn2:hover::after {
+    transform: scaleX(0);
+    transition-delay: 0.15s;
+  }
+  
+  .btn2:hover {
+    border: 2px solid #f7f7f798;
+    /* background-color: white; */
+    /* color: black; */
+    
+  }
+  
+  .btn2 span {
+    position: relative;
+    z-index: 3;
+  }
+  
+  button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  

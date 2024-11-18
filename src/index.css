@@ -1,0 +1,45 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+  *{
+    margin: 0;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ffffff;
+
+    scrollbar-width: none;
+
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+body{
+  background-color: black;
+}
+
+
+.App{
+    width: 98%;
+    height: 98vh;
+    overflow: auto;
+    position: fixed;
+    margin: auto;
+    /* border: 1px solid rgb(46, 46, 46); */
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: black; */
+}
